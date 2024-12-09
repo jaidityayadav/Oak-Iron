@@ -1,0 +1,53 @@
+.addToCart {
+    background-color: rgb(255, 242, 213);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.button {
+    background-color: beige;
+    width: 80%;
+    text-align: center;
+    border-radius: 6px;
+    padding: 12px;
+    margin: 5px; /* Add margin to space out the buttons */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.button a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.button:hover {
+    background-color:rgb(255, 242, 213);
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+.cart-controls{
+    display: flex;
+}
+
+.cart-controls.button{
+    width: 20%;
+}
+
+#count-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-controls div{
+    width: 40%;
+}
+
+#inc-dec-btn{
+    width: 20%;
+}

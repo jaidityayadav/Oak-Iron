@@ -1,0 +1,149 @@
+.order-summary-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8fbfa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-items {
+  margin-bottom: 20px;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.item-details h2 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.order-total {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.order-actions .button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.order-actions .button:hover {
+  background-color: #0056b3;
+}
+
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  height: 100vh;
+}
+
+.summary-content {
+  padding-left: 50px;
+  flex: 1;
+}
+
+.orderItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 30% 25% 1fr;
+  /* Image 30%, Details 25%, Extra 45% */
+
+  /* Center items vertically */
+  gap: 20px;
+  /* Space between grid items */
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.item-image {
+  height: 180px;
+  border-radius: 15px;
+  object-fit: cover;
+  /* Cover the image area without distortion */
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.orderButtonGrid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0.8;
+}
+
+.orderButtonGrid button {
+  width: 20%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.place-order-button {
+  width: 250px !important;
+  margin-bottom: 70px !important;
+}
+
+.address-container {
+  margin-top: 20px;
+}
+
+textarea {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+
+@media (max-width: 1028px) {
+  .cart-item {
+    grid-template-columns: 40% 60%;
+  }
+  .orderButtonGrid{
+    width: 200px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart-item {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .item-details {
+    width: 100%;
+  }
+}

@@ -1,0 +1,232 @@
+#containing {
+    background-color: #f8fbfa;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh; /* Full viewport height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin: 0;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+
+#nav{
+    padding-right: 0px;
+}
+
+#nav > a {
+    padding-right: 10px;
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+header div {
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+header {
+    background-color: rgb(255, 242, 213);
+    border-bottom: 0.5px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+
+h1 {
+    padding-left: 10px;
+    font-size: 3em;
+    color: black;
+    text-shadow: 2px 2px 4px black;
+}
+
+#main hr {
+    width: 100px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+header h2:hover {
+    cursor: pointer;
+}
+
+#explore h2 {
+    margin-top: 50px;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+hr {
+    margin: 0;
+    border: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    flex: 1;
+    /* Allow main content to grow and take up available space */
+}
+
+.dash {
+    color: black;
+    width: 40px;
+    align-self: center;
+    margin: 0 10px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.subtext {
+    margin: 0 20%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+    padding: 0 10px;
+    margin: 20px 20px;
+}
+
+.icons div {
+    transition: transform 0.3s ease;
+}
+
+.icons div:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* Stack image and text vertically */
+    justify-content: space-between;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    /* Scale up the card when hovered */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    max-height: 90%;
+    /* Allocate up to 70% of the card height to the image */
+    border-radius: 10px;
+    object-fit: cover;
+    /* Ensure the image covers the allocated space */
+}
+
+.card .text {
+    flex: 1;
+    /* Allocate remaining space to the text */
+    padding-top: 10px;
+    /* Add some space between the image and text */
+    text-align: center;
+    /* Center the text */
+}
+
+.Products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+#cartItem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10%;
+}
+#cartItem{
+    flex: 1;
+    /* Allocate all remaining space to the cart item */
+}
+
+#cartItem > div {
+    width: 30%;
+}
+
+#cartItem > div img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#contact {
+    width: 100%;
+    border-top: 0.5px solid black ;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80px;
+    background-color: rgb(255, 242, 213);
+}
+
+#contact div {
+    display: flex;
+    justify-content: center;
+}
+
+#contact p {
+    margin-right: 10px;
+}
+
+.home-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logout-link {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.loggedinNav{
+    padding-right: 10px;
+    padding-left: 0px;
+}
+
+.loggedinNav a{
+    padding-right: 10px;
+}
