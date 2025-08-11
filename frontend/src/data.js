@@ -4,7 +4,7 @@ export const items = [
     {
         id: 'pearl-chair',
         name: 'pearl-chair',
-        imageUrl: '../images/chair/chair1.jpg',
+        imageUrl: 'https://oakiron.s3.amazonaws.com/images/chair/chair1.jpg',
         description: 'A refined pearl chair that combines comfort with style, perfect for any setting.',
         specification: {
             weight: '12 kg',
@@ -16,7 +16,7 @@ export const items = [
     {
         id: 'classic-chair',
         name: 'classic-chair',
-        imageUrl: '../images/chair/chair2.jpg',
+        imageUrl: 'https://oakiron.s3.amazonaws.com/images/chair/chair2.jpg',
         description: 'The classic chair design blends timeless elegance and comfort. Crafted from bamboo wood.',
         specification: {
             weight: '10 kg',
@@ -28,7 +28,7 @@ export const items = [
     {
         id: 'vintage-chair',
         name: 'vintage-chair',
-        imageUrl: '../images/chair/chair3.jpg',
+        imageUrl: 'https://oakiron.s3.amazonaws.com/images/chair/chair3.jpg',
         description: 'A vintage-inspired chair with a sophisticated design, ideal for adding charm to your space.',
         specification: {
             weight: '15 kg',
@@ -42,7 +42,7 @@ export const items = [
     {
         id: 'white-marble-dining',
         name: 'white-marble-dining-table',
-        imageUrl: '../images/dining/dining1.png',
+        imageUrl: 'https://oakiron.s3.amazonaws.com/images/dining/dining1.png',
         description: 'A luxurious white marble dining table that exudes elegance and sophistication, perfect for gatherings.',
         specification: {
             weight: '120 kg',
@@ -54,7 +54,7 @@ export const items = [
     {
         id: 'walnut-dining',
         name: 'walnut-dining-table',
-        imageUrl: '../images/dining/dining2.jpg',
+        imageUrl: 'https://oakiron.s3.amazonaws.com/images/dining/dining2.jpg',
         description: 'A stylish walnut dining table crafted from high-quality wood, perfect for a warm and inviting dining experience.',
         specification: {
             weight: '80 kg',
@@ -66,7 +66,7 @@ export const items = [
     {
         id: 'teak-dining',
         name: 'teak-dining-table',
-        imageUrl: '../images/dining/dining4.jpg',
+        imageUrl: 'https://oakiron.s3.amazonaws.com/images/dining/dining4.jpg',
         description: 'A robust teak dining table that combines durability with elegance, suitable for any home décor.',
         specification: {
             weight: '90 kg',
@@ -80,21 +80,21 @@ export const items = [
     {
         id: 'greywool-sofa',
         name: 'greywool-sofa',
-        imageUrl: '../images/sofa/sofa1.jpg',
+        imageUrl: 'https://oakiron.s3.amazonaws.com/images/sofa/sofa1.jpg',
         description: 'A cozy grey wool sofa that offers both comfort and style, ideal for relaxing at home.',
         price: '$350'
     },
     {
         id: 'satin-sofa',
         name: 'satin-sofa',
-        imageUrl: '../images/sofa/sofa2.jpg',
+        imageUrl: 'https://oakiron.s3.amazonaws.com/images/sofa/sofa2.jpg',
         description: 'A satin-finished sofa with a sleek design that adds a modern touch to any living space.',
         price: '$450'
     },
     {
         id: 'modern-sofa',
         name: 'modern-sofa',
-        imageUrl: '../images/sofa/sofa4.jpg',
+        imageUrl: 'https://oakiron.s3.amazonaws.com/images/sofa/sofa4.jpg',
         description: 'A modern sofa with a minimalist design, perfect for contemporary interiors.',
         price: '$900'
     }
